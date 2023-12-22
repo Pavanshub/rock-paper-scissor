@@ -14,18 +14,20 @@ h1 {
     background-color: cadetblue;
     color: white;
     line-height: 5rem;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 .choices {
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     align-items: center;
 
 }
 
 .choice {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -55,6 +57,7 @@ img {
     align-items: center;
     font-size: 2rem;
     background-color: brown;
+    border-radius: 20px;
     color: white;
     margin: 10px;
 
